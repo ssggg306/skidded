@@ -64,6 +64,8 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new PremiumTunnelBaseFinder());
         Modules.get().add(new AdminList());
         Modules.get().add(new AutoTreeFarmer());
+        Modules.get().add(new CrateBuyer());
+        Modules.get().add(new OrderDropper());
     }
 
     @EventHandler
