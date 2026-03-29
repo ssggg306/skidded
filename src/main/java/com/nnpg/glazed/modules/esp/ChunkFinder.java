@@ -63,8 +63,8 @@ public class ChunkFinder extends Module {
     private volatile boolean isRunning = false;
     private int tickCounter = 0;
 
-    public SuspiciousChunkFinder() {
-        super(YourAddon, "sus-chunk-finder",
+    public ChunkFinder() {
+        super(YourAddon, "chunk-finder",
                 "Finds base locations using plant and cluster growth anomalies.");
     }
 
