@@ -26,7 +26,7 @@ import net.minecraft.world.chunk.WorldChunk;
 import java.util.*;
 import java.util.concurrent.*;
 
-public class SuspiciousChunkFinder extends Module {
+public class ChunkFinder extends Module {
     private static final long WORLD_SEED = 6608149111735331168L;
     private static final float RENDER_Y = 63.0f;
     private static final int SCAN_INTERVAL_TICKS = 1;
