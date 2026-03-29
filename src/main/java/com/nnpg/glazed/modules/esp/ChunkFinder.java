@@ -64,7 +64,7 @@ public class ChunkFinder extends Module {
     private int tickCounter = 0;
 
     public ChunkFinder() {
-        super(YourAddon, "chunk-finder",
+        super(GlazedAddon.INSTANCE, "chunk-finder",
                 "Finds base locations using plant and cluster growth anomalies.");
     }
 
